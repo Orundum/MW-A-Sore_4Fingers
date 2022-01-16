@@ -28,8 +28,10 @@
 			<!-- auto-animate(mirip fade-out) untuk memberikan animasi, background-color untuk ubah warna background (default: hitam) -->
 			<section data-auto-animate data-background-color="#9addbd">
 				<h6>Pengertian Social Credit System</h6>
-				<p>Social credit system merupakan salah satu kebijakan pemerintah China dalam melakukan kontrol terhadap perilaku warganya.</p> 
-				<p>Sistem ini bertujuan untuk membuat takaran kelayakan penduduknya, bukan hanya sekedar dalam mendapat kredit, tapi juga seluruh aspek kehidupan mereka.</p>
+				<p>Social credit system merupakan salah satu kebijakan pemerintah China dalam melakukan kontrol terhadap
+					perilaku warganya.</p>
+				<p>Sistem ini bertujuan untuk membuat takaran kelayakan penduduknya, bukan hanya sekedar dalam mendapat
+					kredit, tapi juga seluruh aspek kehidupan mereka.</p>
 			</section>
 			<section>
 				<section data-transition="slide" data-background-color="#399ba3">
@@ -62,7 +64,9 @@
 		Reveal.configure({ autoSlide: 2000 });//fitur auto-slide setiap 2 detik
 		Reveal.initialize({
 			hash: true,
-
+			slideNumber: 'c/t',//atau bisa ganti dengan yg bawah untuk ignore yg vertical slide
+			/*slideNumber: slide => {//Ignore numbering of vertical slides
+			 return [ Reveal.getIndices( slide ).h ];*/
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
