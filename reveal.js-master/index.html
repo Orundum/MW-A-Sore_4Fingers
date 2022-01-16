@@ -28,10 +28,8 @@
 			<!-- auto-animate(mirip fade-out) untuk memberikan animasi, background-color untuk ubah warna background (default: hitam) -->
 			<section data-auto-animate data-background-color="#9addbd">
 				<h6>Pengertian Social Credit System</h6>
-				<p>Social credit system merupakan salah satu kebijakan pemerintah China dalam melakukan kontrol terhadap
-					perilaku warganya.</p>
-				<p>Sistem ini bertujuan untuk membuat takaran kelayakan penduduknya, bukan hanya sekedar dalam mendapat
-					kredit, tapi juga seluruh aspek kehidupan mereka.</p>
+				<p>Social credit system merupakan salah satu kebijakan pemerintah China dalam melakukan kontrol terhadap perilaku warganya.</p> 
+				<p>Sistem ini bertujuan untuk membuat takaran kelayakan penduduknya, bukan hanya sekedar dalam mendapat kredit, tapi juga seluruh aspek kehidupan mereka.</p>
 			</section>
 			<section>
 				<section data-transition="slide" data-background-color="#399ba3">
@@ -50,6 +48,43 @@
 					<p>Social Credit &#8593;</p>
 				</section>
 			</section>
+			<section data-transition="zoom">
+				<section data-auto-animate data-background-color="#696969">
+					<h6>Tanggapan Masyarakat Seputar Social Credit System</h6>
+				</section>
+				<section data-auto-animate data-background-color="#e8e684">
+					<h6 style="color:rgb(243, 0, 0)">Dari dalam China</h6>
+				</section>
+				<section data-auto-animate data-background-color="#e8e684">
+					<h6 style="color:rgb(148, 30, 0)">Dari dalam China</h6>
+					<hr style="background-color: salmon">
+					<ul>
+						<li>Cenderung positif</li>
+						<li>Menerima Social Credit dalam kehidupan sehari-hari</li>
+					</ul>
+				</section>
+				<section data-auto-animate data-background-color="#e8e684">
+					<h6 style="color:rgb(148, 30, 0)">Dari dalam China</h6>
+					<hr style="background-color: salmon">
+					<ul>
+						<li>Cenderung positif</li>
+						<li>Tidak menunjukkan protes maupun demonstrasi</li>
+						<li>Menerima Social Credit dalam kehidupan sehari-hari</li>
+						<li>Menganggap Social Credit dapat meningkatkan perkembangan teknologi</li>
+					</ul>
+				</section>
+				<section data-auto-animate data-background-color="#68cbe6">
+					<h6 style="color: aqua">Dari luar China</h6>
+				</section>
+				<section data-auto-animate data-background-color="#68cbe6">
+					<h6 style="color:rgb(17, 17, 236)">Dari luar China</h6>
+					<hr style="background-color: cyan">
+					<ul>
+						<li>Cenderung negatif</li>
+						<li class="fragment fade up">Mengkritik Social Credit System</li>
+					</ul>
+				</section>
+			</section>
 		</div>
 	</div>
 
@@ -64,9 +99,7 @@
 		Reveal.configure({ autoSlide: 2000 });//fitur auto-slide setiap 2 detik
 		Reveal.initialize({
 			hash: true,
-			slideNumber: 'c/t',//atau bisa ganti dengan yg bawah untuk ignore yg vertical slide
-			/*slideNumber: slide => {//Ignore numbering of vertical slides
-			 return [ Reveal.getIndices( slide ).h ];*/
+
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
