@@ -388,3 +388,10 @@ section.has-light-background p, section.has-light-background h1, section.has-lig
 .reveal small code {
   vertical-align: baseline;
 }
+
+.hscs{
+  background-image:url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg')
+}
+.hscs h6,p{
+  color: black;
+}
